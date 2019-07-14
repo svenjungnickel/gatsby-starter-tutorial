@@ -1,0 +1,21 @@
+body {
+    --bg: azure;
+    --textNormal: #222;
+    --textTitle: #222;
+    --textLink: #9f392b;
+    --hr: hsla(0, 0%, 0%, 0.2);
+    --blogPostDate: #666;
+
+    background-color: var(--bg);
+
+    &.dark {
+        -webkit-font-smoothing: antialiased;
+
+        --bg: darkslategray;
+        --textNormal: rgba(255, 255, 255, 0.88);
+        --textTitle: white;
+        --textLink: yellow;
+        --hr: hsla(0, 0%, 100%, 0.2);
+        --blogPostDate: #CCC;
+    }
+}

@@ -1,0 +1,7 @@
+.blogPostCount {
+    @media (min-width: 768px) {
+        display: inline-block;
+        float: right;
+        margin-top: 15px;
+    }
+}

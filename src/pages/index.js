@@ -9,12 +9,6 @@ import Link from "../components/link";
 import BlogPostCount from "../styles/blogPostCount.module.scss";
 import BlogPost from "../styles/blogPost.module.scss";
 
-document.addEventListener("DOMContentLoaded", event => {
-    (localStorage.getItem("mode") || "dark") === "dark"
-        ? document.querySelector("body").classList.add("dark")
-        : document.querySelector("body").classList.remove("dark");
-});
-
 export default ({ data }) => {
     return (
         <Layout>
